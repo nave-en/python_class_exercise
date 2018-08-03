@@ -1,0 +1,19 @@
+>>> s1="apple"
+>>> s2="orange"
+>>> print(s1+s2)
+appleorange
+>>> s1*s2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: can't multiply sequence by non-int of type 'str'
+>>> s1*2
+'appleapple'
+>>> 
+s1="apple"
+s2="orange"
+print(s1+s2)
+>>> "a"in s1
+True
+>>> "f"in s1
+False
+

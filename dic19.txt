@@ -1,0 +1,19 @@
+>>> dic={"name":"guru", "age":19}
+>>> dic["name"]
+'guru'
+>>> dic["19"]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+KeyError: '19'
+>>> dic["age"]
+19
+>>> dic["name"]="naveen"
+>>> dic
+{'name': 'naveen', 'age': 19}
+>>> dic["year"]="3"
+>>> dic
+{'name': 'naveen', 'age': 19, 'year': '3'}
+>>> del dic["year"]
+>>> dic
+{'name': 'naveen', 'age': 19}
+>>>

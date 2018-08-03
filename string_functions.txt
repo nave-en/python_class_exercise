@@ -1,0 +1,38 @@
+>>> m='naveen'
+>>> m.capitalize()
+'Naveen'
+>>> m.upper()
+'NAVEEN'
+>>> m.lower()
+'naveen'
+>>> m.capitalize()
+'Naveen'
+>>> m.swapcase()
+'NAVEEN'
+>>> n='Naveen'
+>>> n
+'Naveen'
+>>> n.swapcase()
+'nAVEEN'
+>>> n.islower()
+False
+>>> m.isupper()
+False
+>>> n.find()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: find() takes at least 1 argument (0 given)
+>>> n.find('n')
+5
+>>> n.find('N')
+0
+>>> n.partition()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: partition() takes exactly one argument (0 given)
+>>> n.partition('N')
+('', 'N', 'aveen')
+>>> m.partition('n')
+('', 'n', 'aveen')
+>>> m.isalnum()
+True

@@ -1,0 +1,10 @@
+>>> t = ("naveen", "saravana","harish",99)
+>>> t
+('naveen', 'saravana', 'harish', 99)
+>>> t[0]
+'naveen'
+>>> t[-1]
+99
+>>> t[1:3]
+('saravana', 'harish')
+>>> t.append("guru")

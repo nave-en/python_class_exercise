@@ -1,0 +1,19 @@
+a=4
+b=2
+print("the value of a is",a,"b is ",b)
+m="i have %d pen" %b
+print(m)
+c="ravi"
+print("my name is {1} and my age is{0}".format("ram","13"))
+print("Hello {}, your balance is {}.".format("Adam", 230.2346))
+print("bin:{0:b}oct:{0:o}hex{0:x}".format(12))
+print("{:5d}".format(12))
+print("{:8f}".format(12.2346))
+the value of a is 4 b is  2
+i have 2 pen
+my name is 13 and my age isram
+Hello Adam, your balance is 230.2346.
+bin:1100oct:14hexc
+   12
+12.234600
+
